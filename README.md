@@ -14,4 +14,4 @@ To make a component run `ap <name> <type> <size>`. For example:
 
 `ap HeroBlock product molecules` to create a **HeroBlock** in a **Product** screen as a molecule.
 
-The `type` can be either `common` or the name of a screen subfolder. If the screen subfolder doesn't exist, it will attempt to make it. 
+The `type` can be either `common` or the name of a screen subfolder. If the screen subfolder doesn't exist, it will attempt to make it.

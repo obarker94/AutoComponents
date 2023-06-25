@@ -1,21 +1,32 @@
 {
   "name": "autoplate",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "AutoComponents is a CLI tool to generate an opinionated file structure for common and screen based components.",
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc ./src/index.ts --outDir ./dist"
+    "tsc": "tsc",
+    "build": "tsc ./src/index.ts --outDir ./dist",
+    "lint": "eslint '**/*.{js,ts}' --fix",
+    "prettier": "prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.8.8",
     "typescript": "^5.1.3"
   },
   "bin": {
-    "ap": "./dist/index.js"
+    "ap": "./bin/index.js"
+  },
+  "repository": "git@github.com:obarker94/AutoComponents.git",
+  "dependencies": {
+    "eslint": "^8.43.0"
   }
 }
-
