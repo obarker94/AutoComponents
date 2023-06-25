@@ -1,12 +1,12 @@
 {
   "name": "autoplate",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "AutoComponents is a CLI tool to generate an opinionated file structure for common and screen based components.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "build": "tsc ./src/index.ts --outDir ./dist && node ./dist/index.js",
-     "postinstall": "npm i && npm run build && mv ./dist/index.js /usr/local/bin/autoplate"
+     "build": "tsc ./src/index.ts --outDir ./dist",
+     "postinstall": "npm run build"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,6 @@
     "typescript": "^5.1.3"
   },
   "bin": {
-    "ap": "index.js"
+    "ap": "./dist/index.js"
   }
 }
