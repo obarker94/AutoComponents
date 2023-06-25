@@ -122,8 +122,6 @@ function createComponent({
   }
 }
 
-initFolders(coreFolders);
-
 // listen to process arguments if it is init then run initFolders(coreFolders)
 const args = process.argv;
 if (args[0] === 'init') {
@@ -143,6 +141,7 @@ if (args[0] === 'create') {
   })
   process.exit(0);
 }
+
 
 
 
