@@ -1,6 +1,22 @@
-# autoplate
+# autoplate - LIVE PREVIEW
 
-**autoplate** is a CLI tool to generate an opinionated file structure for common and screen based components.
+**autoplate** is a CLI tool to generate an opinionated file structure for common and screen based components. To begin with, this package will support `react` and `react-testing-library` to generate boilerplate for a file and corresponding test.
+
+This package is a work in progress.
+
+## Development
+
+As of now, you will need to manually add to path or run `npm link` in the src folder. 
+
+## Roadmap
+
+### 1.1.0
+- Autoinstall into path
+
+### 1.2.0
+- Custom folder structures in the `autocomponent.json`
+- Custom boiler plates able to be set by file extension in the `autocomponent.json`
+
 
 ## Get Started
 
