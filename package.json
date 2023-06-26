@@ -1,6 +1,6 @@
 {
   "name": "autoplate",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "AutoComponents is a CLI tool to generate an opinionated file structure for common and screen based components.",
   "main": "./dist/index.js",
   "scripts": {
